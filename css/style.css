@@ -303,8 +303,6 @@ header {
     opacity: 0.25;
 }
 
-
-
 .services {
     margin-bottom: 4em;
 }
@@ -404,6 +402,59 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
+
+
+
+
+/*Contact Part*/
+
+
+.contact-me {
+    background-color: var(--clr-light);
+    background-image: url(../images/contact-bg.jpg);
+    color: var(--clr-dark);
+    background-size: cover;
+    text-align: center;
+}
+
+.section__title--contact {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--contact::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var (var(--clr-light));
+    opacity: 0.25;
+}
+
+.contact {
+    margin-bottom: 4em;
+}
+.contacts {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .contact {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contacts + .contacts {
+        margin-left: 2em;
+    }
+}
+
+
+
 
 /*Footer part*/
 
