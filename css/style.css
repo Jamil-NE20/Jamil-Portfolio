@@ -7,11 +7,11 @@
 
 /* Custom properties, own design*/
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;  /*ff=font family*/
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Lora', serif;  /*ff=font family*/
+    --ff-secondary: 'Roboto Slab', serif;
 
-    --fw-reg: 300; /*fw=font width*/
-    --fw-bold: 900;
+    --fw-reg: 400; /*fw=font width*/
+    --fw-bold: 700;
 
     --clr-light: #fff;
     --clr-dark: #303030;
