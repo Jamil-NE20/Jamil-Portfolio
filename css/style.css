@@ -306,11 +306,11 @@ header {
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 .service {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 1em;
 }
 
 @media (min-width: 800px) {
