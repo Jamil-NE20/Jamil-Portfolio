@@ -242,6 +242,7 @@ header {
 
 .intro {
     position: relative;
+    
 }
 .intro__img {
     box-shadow: var(--bs);
@@ -426,7 +427,7 @@ header {
 .section__title--contact::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 4em;
     height: 1px;
     margin: 0.5em auto 1em;
     background: var (var(--clr-light));
@@ -434,7 +435,8 @@ header {
 }
 
 .contact {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+    margin: 0 auto;
 }
 .contacts {
     max-width: 500px;
