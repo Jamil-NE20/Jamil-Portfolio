@@ -481,6 +481,8 @@ header {
     font-weight: var(--fw-bold);
 }
 
+
+
 .footer__link:hover,
 .social-list__link:hover {
     opacity: .7;
