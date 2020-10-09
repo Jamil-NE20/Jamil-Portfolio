@@ -4,11 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Jamil Portfolio Website</title>
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+        
 
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|
@@ -43,35 +39,62 @@
             <h1 class="section__title section__title--intro">
                 Hi, I'm <strong>Jamil Uddin</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Junior Developer / IT Support</p>
-            <img src="images/jamil-01.jpg" alt="a picture of Jamil Smiling" class="intro__img">
-
-            <a href="#about" class="btn">About Me</a>
+            <p class="section__subtitle section__subtitle--intro">Junior Developer / Support Technician</p>
+            <img src="images/jamil-01.jpg" alt="a picture of Jamil Smiling" class="intro__img" height="250">
+            <!--
+            <a href="#about" class="btn">About Me</a> 
+            -->
+            <div class="message">
+                <p>“Respect and honour all human beings irrespective of their religion, colour, race, sex, 
+                    language, status, property, birth, profession/job and so on ”
+                </p>
+            </div>                     
 
         </section>
+        
+          
+           
         <!-- End Introduction -->
 
         <!-- Services-->
         <section class="my-services" id="services">
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
+                <!--
                 <div class="service">
                     <h3>Web Development</h3>
-                    <p>Need help, contact me: HTML5, CSS3 & JavaScript; C#, .NET, ASP.NET</p>
-                </div> <!-- end service-->
+                    <p>Need help, Contact me: 
+                        <li>Personal website</li>
+                        <li>Business website</li>
+                        <li>Academic Website</li>
+                    </p>
+                </div> <!-- end service
+                    -->
                 <div class="service">
-                    <h3>IT Support & Networking</h3>
-                    <p>Need help, contact me: Windows server 2016, DNS, DHCP, 
-                        Active Directory, Group Policy, Hyper-v, TCP / IP, Cisco router & Switch, Firewall</p>
+                    <h3>IT Support & Web Development</h3>
+                    <p>Need help, Contact me: 
+                        <li>Configuration &
+                            troubleshooting: Windows server 2016.</li>
+                        <li>Configuration & 
+                                troubleshooting: DNS, DHCP, TCP / IP, Firewall.</li> 
+                        <li>Design & develop: Personal, Business, and Academic website</li>
+                    </p>
                 </div> <!-- end service-->
+                 <!--
                 <div class="service">
                     <h3>Azure Cloud Services</h3>
                     <p>Need help, contact me</p>
-                </div> <!-- end service-->
+                </div> 
+                -->
+                <!-- end service-->
                 <div class="service">
                     <h3>Freelancer</h3>
-                    <p>Need help, contact me: Surface Hub: installation, configuration, 
-                        troubleshooting, Test and connect with active directory(Authentication)</p>
+                    <p>Need help, Contact me: 
+                        <li>Surface Hub: installation, configuration, 
+                            troubleshooting, Test and connect with active directory(Authentication)</li>
+                            <li>Technical support such as PC/laptop installation, troubleshooting,
+                                 and maintenance, software install/update/ troubleshooting, printer maintenance.</li>
+                    </p>
                 </div> <!-- end service-->
             </div> <!-- end services-->
             <a href="#work" class="btn">My Work</a>
@@ -84,36 +107,34 @@
             <p class="section__subtitle section__subtitle--about">Developer, IT Technician & Cloud Engineer</p>
 
             <div class="about-me__body">
-                <p>I'm Jamil Uddin from Bangladesh, now live in Stockholm. I read books
-                    and play badminton in my spare time. I'm an active member of the NRB
-                    Cultural Association in Huddinge.</p>
+                <p>
+                    Hi! I'm Jamil Uddin. I currently study full-time as a Programming C# .Net Developer, Lexicon AB, Stockholm, Sweden.
+                    I like to make open source projects for fun; all of which can be found on GitHub. 
+                    This is my personal website where I share everything I know.
+                </p>
+               
+                <p>
+                    I like to read books and play badminton & football
+                    As a person, I am active, positive, social and thinking outside of the box is natural. 
+                    I like to meet cool people. 
+                </p>
+                <p>
+                    I hope you love the site, and if there's anything you want to talk about with me feel free to drop me a line by email. 
+                    I'm happy to hear your comments, feedback, suggestions! 
+                </p>          
+
             </div>
             <img src="images/jamil-02.jpg" alt="Jamil with work" class="about-me__img">
-            <div class="services">
-                <div class="service">
-                    <h3>Programming Skills</h3>
-                    <p>HTML5, CSS3 & JavaScript; C#, jQuery</p>
-                </div> <!-- end service-->
-            </div> 
-            <div class="services">
-                <div class="service">
-                    <h3>Technical Skills</h3>
-                    <p>HTML5, CSS3 & JavaScript; C#, jQuery</p>
-                </div> <!-- end service-->
-            </div> 
-            <div class="services">
-                <div class="service">
-                    <h3>Practical Skills</h3>
-                    <p> HTML5, CSS3 & JavaScript; C#, jQuery</p>
-                </div> <!-- end service-->
-            </div>    
-
+            
+            <!-- end service   
+            <a href="#work" class="btn" >My Work</a>               
+                -->
         </section>
 
         <!--My Work-->
         <section class="my-work" id="work">
             <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <p class="section__subtitle section__subtitle--work">My range of work & study materials</p>
 
             <div class="portfolio"> 
                 <!-- Portfolio item 01 -->
@@ -122,60 +143,41 @@
                 </a>
 
                  <!-- Portfolio item 02 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/HTML-and-CSS" class="portfolio__item">
                     <img src="images/portfolio-02.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 03 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/MSSQL-Server" class="portfolio__item">
                     <img src="images/portfolio-03.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 04 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/AzureLab" class="portfolio__item">
                     <img src="images/portfolio-04.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 05 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/API-Lab" class="portfolio__item">
                     <img src="images/portfolio-05.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 06 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/Project-ShopTastic" class="portfolio__item">
                     <img src="images/portfolio-06.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 07 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="resume-item.html" class="portfolio__item">
                     <img src="images/portfolio-07.jpg" alt="" class="portfolio__img" width="325" height="183">
                 </a>
 
                  <!-- Portfolio item 08 -->
-                 <a href="#" class="portfolio__item">
+                 <a href="https://github.com/Jamil-NE20/Jamil-Portfolio" class="portfolio__item">
                     <img src="images/portfolio-08.jpg" alt="" class="portfolio__img" width="325" height="183">
+                    
                 </a>
-
-                 <!-- Portfolio item 09 -->
-                 <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img" width="325" height="183">
-                </a>
-
-                 <!-- Portfolio item 10 -->
-                 <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img" width="325" height="183">
-                </a>
-
-                 <!-- Portfolio item 10 -->
-                 <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-11.jpg" alt="" class="portfolio__img" width="325" height="183">
-                </a>
-
-                 <!-- Portfolio item 10 -->
-                 <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-12.jpg" alt="" class="portfolio__img" width="325" height="183">
-                </a>
-
+                               
             </div>
         </section>
         <!--End work part-->
@@ -184,16 +186,54 @@
         <section class="contact-me" id="contact">
             <h2 class="section__title section__title--contact">Contact Me</h2>
             <div class="contact">
+                
+                <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="md-jamil-uddin"><a class="LI-simple-link"
+                     href='https://se.linkedin.com/in/md-jamil-uddin?trk=profile-badge'>MD JAMIL UDDIN</a>
+                </div>
+                
                 <div class="contacts">
                     <h3 class="section__title section__title--contact">Contact Details</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Mogårdsvägen 25 <br>143 43 Vårby, Stockholm<br> Sweden </p>
                     <p><i class="fas fa-phone-square"></i><a href="tel:+46(0)70 778 85 58">+46(0)70 778 85 58</a></p>
-                    <p><i class="fas fa-envelope"></i><a href="uddin.jamil.md@gmail.com">uddin.jamil.md@gmail.com</a></p>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:uddin.jamil.md@gmail.com">uddin.jamil.md@gmail.com</a></p>
                 </div>
-            </div>      
+            </div>   
+               
+        </section>           
+        <!--End Contact part-->
+
+        <!--My Blog-->
+        <section class="my-work" id="blog">
+            <h2 class="section__title section__title--work">My Blog</h2>
+            <p class="section__subtitle section__subtitle--work">Articles, study materials, and everything else</p>
+
+            <div class="portfolio"> 
+                 <!-- Portfolio item 09 -->
+                 <a href="https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer" class="portfolio__item">
+                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img" width="325" height="183">
+                </a>
+
+                 <!-- Portfolio item 10 -->
+                 <a href="https://www.tutorialsteacher.com/mvc/asp.net-mvc-tutorials" class="portfolio__item">
+                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img" width="325" height="183">
+                </a>
+
+                 <!-- Portfolio item 11 -->
+                 <a href="https://www.testpreptraining.com/tutorial/microsoft-azure-fundamentals-az-900/" class="portfolio__item">
+                    <img src="images/portfolio-11.jpg" alt="" class="portfolio__img" width="325" height="183">
+                </a>
+
+                 <!-- Portfolio item 12 -->
+                 <a href="https://data-flair.training/blogs/cloud-computing-tutorial/" class="portfolio__item">
+                    <img src="images/portfolio-12.jpg" alt="" class="portfolio__img" width="325" height="183">
+                </a>
+                
+
+            </div>    
         </section>           
 
-        <!--End Contact part-->
+        <!--End Blog part-->
+
 
         <!--Footer part-->
         <footer class="footer">
@@ -207,7 +247,7 @@
                     </a>
                 </li>
                 <li class="social-list_item">
-                    <a class="social-list__link" href="https://linkedin.com/">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/md-jamil-uddin/">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
@@ -217,7 +257,7 @@
                     </a>
                 </li>
                 <li class="social-list_item">
-                    <a class="social-list__link" href="https://github.com">
+                    <a class="social-list__link" href="https://github.com/Jamil-NE20">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
@@ -228,6 +268,7 @@
          <!--Start Script part-->
 
          <Script src="js/index.js"></Script>
+         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
          <!--End Script part-->
 

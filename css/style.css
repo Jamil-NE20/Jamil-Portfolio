@@ -148,11 +148,12 @@ header {
 
 .nav {
     position: fixed;
+    
     background: var(--clr-dark);
     color: var(--clr-light);
     top: 0;
     bottom: 0;
-    left: 0;
+    /*left: 0;*/
     right: 0;
     z-index: 100;
     
@@ -241,6 +242,7 @@ header {
 
 .intro {
     position: relative;
+    
 }
 .intro__img {
     box-shadow: var(--bs);
@@ -282,7 +284,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../images/services-bg.jpg);
+    background-image: url(../images/services-bg2.jpg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -304,18 +306,18 @@ header {
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 .service {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 1em;
 }
 
 @media (min-width: 800px) {
     .services {
         display: flex;
         max-width: 1000px;
-        margin-left: auto;
+        margin-left:auto;
         margin-right: auto;
     }
 
@@ -328,7 +330,9 @@ header {
 
 .about-me {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    
+    
 }
 
 .about-me__img {
@@ -425,7 +429,7 @@ header {
 .section__title--contact::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 4em;
     height: 1px;
     margin: 0.5em auto 1em;
     background: var (var(--clr-light));
@@ -433,7 +437,8 @@ header {
 }
 
 .contact {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+    margin: 0 auto;
 }
 .contacts {
     max-width: 500px;
